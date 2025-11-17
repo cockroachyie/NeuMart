@@ -5,7 +5,7 @@ export default function Checkout(){
 
   const nav = useNavigate();
 
-  // All hooks MUST be declared unconditionally
+
   const [customer,setCustomer] = useState(null);
 
   const [savedAddress,setSavedAddress] = useState("");
